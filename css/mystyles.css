@@ -1,0 +1,180 @@
+/* common styles for all pages */
+header {
+    text-align: center;
+}
+
+hr {
+    background: #1d3156;
+    
+    width: 60%;
+    height: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: rgb(245, 247, 248);
+    text-decoration: none;    
+}
+
+.nav-sophesticated, .nav-energetic, .nav-corporate, .nav-relaxed, .nav-fun {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;   
+}
+
+/* styles for sophesticated page */
+
+.background-sophesticated {
+    background-color: #84B7DF;
+}
+
+.header-sophesticated h1 {
+    font-family: 'Lora', serif;
+    color: #84C3DF;    
+    background: #1d3156;
+    padding: 30px 0px;
+    letter-spacing: 0.1em;
+}
+
+.header-sophesticated h2{
+    font-family: 'Work Sans', sans-serif;
+    color: #1d3156;
+    margin: 5px 0px ;
+    width:100%; 
+}
+
+.main-sophesticated, .main-energetic {
+    margin: 20px 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.nav-sophesticated a {     
+    background-color: #1d3156;        
+}
+
+/* styles for energetic page */
+
+.background-energetic {
+    background-color:#FFF44C;
+}
+
+.header-energetic h1 {
+    font-family: 'Sonsie One', cursive;
+    font-size: 3em;
+    color: #FFF44C;    
+    background:#e82a22;
+    padding: 30px 0px; 
+    letter-spacing: 0.1em;   
+}
+
+.header-energetic h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: #145b9b;
+    margin: 3px 0px ;
+    width:100%;
+}
+
+.nav-energetic a {
+    background-color: rgb(206, 20, 6);      
+}
+
+/* styles for corporate page */
+
+.background-corporate {
+    background-color:rgb(207, 207, 207);    
+}
+
+.header-corporate h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4em;
+    color: #FDC167;    
+    background:#105170;
+    padding: 30px 0px; 
+    letter-spacing: 0.01em;   
+}
+
+.header-corporate h2 {
+    font-family: 'Work Sans', sans-serif;
+    color: #105170;
+    margin: 3px 0px ;
+    width:100%;
+}
+
+.main-corporate {
+    margin: 20px 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.nav-corporate a {
+    background-color: #105170;      
+}
+
+/* styles for relaxed page */
+
+.background-relaxed {
+    background-color:rgb(243, 235, 165);    
+}
+
+.header-relaxed h1 {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 4em;
+    color: #ffe538;    
+    background:#00be70;
+    padding: 30px 0px; 
+    letter-spacing: 0.01em;   
+}
+
+.header-relaxed h2 {
+    font-family: 'Varela', sans-serif;
+    color: #00be70;
+    margin: 3px 0px ;
+    width:100%;
+}
+
+.main-relaxed {
+    margin: 20px 10px;
+    font-family: 'Varela', sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.nav-relaxed a {
+    background-color: #00be70;      
+}
+
+/* styles for fun page */
+
+.background-fun {
+    background-color:#F9ED3A;    
+}
+
+.header-fun h1 {
+    font-family: 'Fontdiner Swanky', cursive;
+    font-size: 4em;
+    color: #F9ED3A;    
+    background:#844D9E;
+    padding: 30px 0px; 
+    letter-spacing: 0.1em;   
+}
+
+.header-fun h2 {
+    font-family: 'Varela', sans-serif;
+    color: rgb(224, 99, 9);
+    margin: 3px 0px ;
+    width:100%;
+}
+
+.main-fun {
+    margin: 20px 10px;
+    font-family: 'Atma', cursive;
+    font-size: 24px;
+    line-height: 2;
+}
+
+.nav-fun a {
+    background-color: #844D9E; 
+}
